@@ -1,0 +1,15 @@
+{
+  "originHash" : "38024d5853f2ba3c28765930db4ca51ed273c4418270027d35d1742ea83d9a26",
+  "pins" : [
+    {
+      "identity" : "materialuikit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aumChauhan/MaterialUIKit.git",
+      "state" : {
+        "revision" : "c7d9c84784d45bfbb61b13e3728703fd58776866",
+        "version" : "1.2.1"
+      }
+    }
+  ],
+  "version" : 3
+}
