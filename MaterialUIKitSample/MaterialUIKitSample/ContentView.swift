@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import MaterialUIKit
 
 struct ContentView: View {
     var body: some View {

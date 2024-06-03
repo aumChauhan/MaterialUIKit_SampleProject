@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import MaterialUIKit
 
 struct CustomColorTheme: MUIColorThemeProtocol {
     func iconColor() -> Color {

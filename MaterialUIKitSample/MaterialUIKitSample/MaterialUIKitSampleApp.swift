@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import MaterialUIKit
+@_exported import MaterialUIKit
 
 @main
 struct MaterialUIKitSampleApp: App {
