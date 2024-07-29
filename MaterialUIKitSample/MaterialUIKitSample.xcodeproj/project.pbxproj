@@ -7,63 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F2F2A8D2C04624D00046E80 /* MUICardViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2A8C2C04624D00046E80 /* MUICardViewSample.swift */; };
-		5F2F2A8F2C0464A600046E80 /* MUICheckboxSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2A8E2C0464A600046E80 /* MUICheckboxSample.swift */; };
-		5F2F2A912C04656F00046E80 /* MUIDatePickerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2A902C04656F00046E80 /* MUIDatePickerSample.swift */; };
-		5F2F2A932C04667700046E80 /* MUIDialogSheetSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2A922C04667700046E80 /* MUIDialogSheetSample.swift */; };
-		5F2F2A952C04672300046E80 /* MUIFABSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2A942C04672300046E80 /* MUIFABSample.swift */; };
-		5F2F2A972C04683400046E80 /* MUIIconButtonSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2A962C04683400046E80 /* MUIIconButtonSample.swift */; };
-		5F2F2A9B2C0469BB00046E80 /* MUIListSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2A9A2C0469BB00046E80 /* MUIListSample.swift */; };
-		5F2F2A9D2C046B5100046E80 /* MUIMenuSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2A9C2C046B5100046E80 /* MUIMenuSample.swift */; };
-		5F2F2A9F2C046D6C00046E80 /* MUINavigationViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2A9E2C046D6C00046E80 /* MUINavigationViewSample.swift */; };
-		5F2F2AA12C04731600046E80 /* MUIProgressSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2AA02C04731600046E80 /* MUIProgressSample.swift */; };
-		5F2F2AA32C0474EF00046E80 /* MUIRadioButtonGroupSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2AA22C0474EF00046E80 /* MUIRadioButtonGroupSample.swift */; };
-		5F2F2AA52C0475E400046E80 /* MUISearchbarSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2AA42C0475E400046E80 /* MUISearchbarSample.swift */; };
-		5F2F2AA72C04769300046E80 /* MUISecurefieldSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2AA62C04769300046E80 /* MUISecurefieldSample.swift */; };
-		5F2F2AA92C0477A500046E80 /* MUISegmentedControlSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2AA82C0477A500046E80 /* MUISegmentedControlSample.swift */; };
-		5F2F2AAB2C04781900046E80 /* MUISnackbarSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2AAA2C04781900046E80 /* MUISnackbarSample.swift */; };
-		5F2F2AAD2C04793300046E80 /* MUISwitchSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2AAC2C04793300046E80 /* MUISwitchSample.swift */; };
-		5F2F2AAF2C047A7B00046E80 /* MUITextFieldSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2AAE2C047A7B00046E80 /* MUITextFieldSample.swift */; };
-		5F2F2AB12C04849D00046E80 /* MUITimePickerSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2AB02C04849D00046E80 /* MUITimePickerSample.swift */; };
-		5F2F2AB32C04859400046E80 /* MUITabViewSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2F2AB22C04859400046E80 /* MUITabViewSample.swift */; };
+		5F032DE72C554A180045089F /* AppleClassic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F032DE62C554A180045089F /* AppleClassic.swift */; };
+		5F032DE92C554C420045089F /* RootContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F032DE82C554C420045089F /* RootContainer.swift */; };
+		5F032DED2C5553810045089F /* DialogExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F032DEC2C5553810045089F /* DialogExample.swift */; };
+		5F032DEF2C5555760045089F /* AlertAndDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F032DEE2C5555760045089F /* AlertAndDialog.swift */; };
+		5F032DF32C5556FE0045089F /* DialogSheetExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F032DF22C5556FE0045089F /* DialogSheetExample.swift */; };
+		5F032DF52C5558AA0045089F /* SnackbarExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F032DF42C5558AA0045089F /* SnackbarExample.swift */; };
+		5F032DF82C555B1B0045089F /* FormControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F032DF72C555B1B0045089F /* FormControls.swift */; };
+		5F032DFA2C555B440045089F /* CheckboxExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F032DF92C555B440045089F /* CheckboxExample.swift */; };
+		5F032DFC2C555C0B0045089F /* DateAndTimeSelectorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F032DFB2C555C0B0045089F /* DateAndTimeSelectorExample.swift */; };
+		5F032DFE2C555E3D0045089F /* RadioButtonGroupExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F032DFD2C555E3D0045089F /* RadioButtonGroupExample.swift */; };
+		5F032E002C555F890045089F /* SecureTextBoxExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F032DFF2C555F890045089F /* SecureTextBoxExample.swift */; };
+		5F032E022C5560FB0045089F /* TextBoxExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F032E012C5560FB0045089F /* TextBoxExample.swift */; };
+		5F032E042C5563320045089F /* SwitchExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F032E032C5563320045089F /* SwitchExample.swift */; };
+		5F032E072C55682A0045089F /* InteractiveElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F032E062C55682A0045089F /* InteractiveElements.swift */; };
+		5F032E092C5569D60045089F /* ActionButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F032E082C5569D60045089F /* ActionButtonExample.swift */; };
+		5F032E0B2C556EB10045089F /* DropdownMenuExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F032E0A2C556EB10045089F /* DropdownMenuExample.swift */; };
+		5F032E0D2C5578A70045089F /* FABExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F032E0C2C5578A70045089F /* FABExample.swift */; };
+		5F032E0F2C557A950045089F /* IconButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F032E0E2C557A950045089F /* IconButtonExample.swift */; };
 		5F9D2FE92C038BA0007558F9 /* MaterialUIKitSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D2FE82C038BA0007558F9 /* MaterialUIKitSampleApp.swift */; };
-		5F9D2FEB2C038BA0007558F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D2FEA2C038BA0007558F9 /* ContentView.swift */; };
 		5F9D2FED2C038BA2007558F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9D2FEC2C038BA2007558F9 /* Assets.xcassets */; };
 		5F9D2FF02C038BA2007558F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9D2FEF2C038BA2007558F9 /* Preview Assets.xcassets */; };
 		5F9D2FF82C038BB0007558F9 /* MaterialUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5F9D2FF72C038BB0007558F9 /* MaterialUIKit */; };
-		5F9D2FFB2C038BEB007558F9 /* CustomColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D2FFA2C038BEB007558F9 /* CustomColorTheme.swift */; };
-		5F9D30002C0390C9007558F9 /* MUIAlertSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D2FFF2C0390C9007558F9 /* MUIAlertSample.swift */; };
-		5F9D30022C03977A007558F9 /* MUIButtonSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9D30012C03977A007558F9 /* MUIButtonSample.swift */; };
+		5FBAC1092C5628F800ABF489 /* NavigationAndStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAC1082C5628F800ABF489 /* NavigationAndStructure.swift */; };
+		5FBAC10B2C56298200ABF489 /* CollectionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAC10A2C56298200ABF489 /* CollectionExample.swift */; };
+		5FBAC10D2C5630AA00ABF489 /* ContainerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAC10C2C5630AA00ABF489 /* ContainerExample.swift */; };
+		5FBAC10F2C56337B00ABF489 /* NavigationContainerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAC10E2C56337B00ABF489 /* NavigationContainerExample.swift */; };
+		5FBAC1112C56365C00ABF489 /* SegmentedButtonsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAC1102C56365C00ABF489 /* SegmentedButtonsExample.swift */; };
+		5FBAC1132C5638F500ABF489 /* TabBarExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAC1122C5638F500ABF489 /* TabBarExample.swift */; };
+		5FBAC1162C563DA500ABF489 /* PresentationAndSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAC1152C563DA400ABF489 /* PresentationAndSearch.swift */; };
+		5FBAC1182C563F0D00ABF489 /* ProgressBarExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAC1172C563F0D00ABF489 /* ProgressBarExample.swift */; };
+		5FBAC11A2C563F1F00ABF489 /* SeparatorExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAC1192C563F1F00ABF489 /* SeparatorExample.swift */; };
+		5FBAC11C2C563F2F00ABF489 /* SearchBoxExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBAC11B2C563F2F00ABF489 /* SearchBoxExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5F2F2A8C2C04624D00046E80 /* MUICardViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUICardViewSample.swift; sourceTree = "<group>"; };
-		5F2F2A8E2C0464A600046E80 /* MUICheckboxSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUICheckboxSample.swift; sourceTree = "<group>"; };
-		5F2F2A902C04656F00046E80 /* MUIDatePickerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUIDatePickerSample.swift; sourceTree = "<group>"; };
-		5F2F2A922C04667700046E80 /* MUIDialogSheetSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUIDialogSheetSample.swift; sourceTree = "<group>"; };
-		5F2F2A942C04672300046E80 /* MUIFABSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUIFABSample.swift; sourceTree = "<group>"; };
-		5F2F2A962C04683400046E80 /* MUIIconButtonSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUIIconButtonSample.swift; sourceTree = "<group>"; };
-		5F2F2A9A2C0469BB00046E80 /* MUIListSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUIListSample.swift; sourceTree = "<group>"; };
-		5F2F2A9C2C046B5100046E80 /* MUIMenuSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUIMenuSample.swift; sourceTree = "<group>"; };
-		5F2F2A9E2C046D6C00046E80 /* MUINavigationViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUINavigationViewSample.swift; sourceTree = "<group>"; };
-		5F2F2AA02C04731600046E80 /* MUIProgressSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUIProgressSample.swift; sourceTree = "<group>"; };
-		5F2F2AA22C0474EF00046E80 /* MUIRadioButtonGroupSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUIRadioButtonGroupSample.swift; sourceTree = "<group>"; };
-		5F2F2AA42C0475E400046E80 /* MUISearchbarSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUISearchbarSample.swift; sourceTree = "<group>"; };
-		5F2F2AA62C04769300046E80 /* MUISecurefieldSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUISecurefieldSample.swift; sourceTree = "<group>"; };
-		5F2F2AA82C0477A500046E80 /* MUISegmentedControlSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUISegmentedControlSample.swift; sourceTree = "<group>"; };
-		5F2F2AAA2C04781900046E80 /* MUISnackbarSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUISnackbarSample.swift; sourceTree = "<group>"; };
-		5F2F2AAC2C04793300046E80 /* MUISwitchSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUISwitchSample.swift; sourceTree = "<group>"; };
-		5F2F2AAE2C047A7B00046E80 /* MUITextFieldSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUITextFieldSample.swift; sourceTree = "<group>"; };
-		5F2F2AB02C04849D00046E80 /* MUITimePickerSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUITimePickerSample.swift; sourceTree = "<group>"; };
-		5F2F2AB22C04859400046E80 /* MUITabViewSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUITabViewSample.swift; sourceTree = "<group>"; };
+		5F032DE62C554A180045089F /* AppleClassic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleClassic.swift; sourceTree = "<group>"; };
+		5F032DE82C554C420045089F /* RootContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootContainer.swift; sourceTree = "<group>"; };
+		5F032DEC2C5553810045089F /* DialogExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogExample.swift; sourceTree = "<group>"; };
+		5F032DEE2C5555760045089F /* AlertAndDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAndDialog.swift; sourceTree = "<group>"; };
+		5F032DF22C5556FE0045089F /* DialogSheetExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogSheetExample.swift; sourceTree = "<group>"; };
+		5F032DF42C5558AA0045089F /* SnackbarExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackbarExample.swift; sourceTree = "<group>"; };
+		5F032DF72C555B1B0045089F /* FormControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormControls.swift; sourceTree = "<group>"; };
+		5F032DF92C555B440045089F /* CheckboxExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxExample.swift; sourceTree = "<group>"; };
+		5F032DFB2C555C0B0045089F /* DateAndTimeSelectorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAndTimeSelectorExample.swift; sourceTree = "<group>"; };
+		5F032DFD2C555E3D0045089F /* RadioButtonGroupExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonGroupExample.swift; sourceTree = "<group>"; };
+		5F032DFF2C555F890045089F /* SecureTextBoxExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTextBoxExample.swift; sourceTree = "<group>"; };
+		5F032E012C5560FB0045089F /* TextBoxExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBoxExample.swift; sourceTree = "<group>"; };
+		5F032E032C5563320045089F /* SwitchExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchExample.swift; sourceTree = "<group>"; };
+		5F032E062C55682A0045089F /* InteractiveElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveElements.swift; sourceTree = "<group>"; };
+		5F032E082C5569D60045089F /* ActionButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonExample.swift; sourceTree = "<group>"; };
+		5F032E0A2C556EB10045089F /* DropdownMenuExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownMenuExample.swift; sourceTree = "<group>"; };
+		5F032E0C2C5578A70045089F /* FABExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FABExample.swift; sourceTree = "<group>"; };
+		5F032E0E2C557A950045089F /* IconButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButtonExample.swift; sourceTree = "<group>"; };
 		5F9D2FE52C038BA0007558F9 /* MaterialUIKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialUIKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F9D2FE82C038BA0007558F9 /* MaterialUIKitSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialUIKitSampleApp.swift; sourceTree = "<group>"; };
-		5F9D2FEA2C038BA0007558F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5F9D2FEC2C038BA2007558F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F9D2FEF2C038BA2007558F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5F9D2FFA2C038BEB007558F9 /* CustomColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorTheme.swift; sourceTree = "<group>"; };
-		5F9D2FFF2C0390C9007558F9 /* MUIAlertSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUIAlertSample.swift; sourceTree = "<group>"; };
-		5F9D30012C03977A007558F9 /* MUIButtonSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUIButtonSample.swift; sourceTree = "<group>"; };
+		5FBAC1082C5628F800ABF489 /* NavigationAndStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAndStructure.swift; sourceTree = "<group>"; };
+		5FBAC10A2C56298200ABF489 /* CollectionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExample.swift; sourceTree = "<group>"; };
+		5FBAC10C2C5630AA00ABF489 /* ContainerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerExample.swift; sourceTree = "<group>"; };
+		5FBAC10E2C56337B00ABF489 /* NavigationContainerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationContainerExample.swift; sourceTree = "<group>"; };
+		5FBAC1102C56365C00ABF489 /* SegmentedButtonsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedButtonsExample.swift; sourceTree = "<group>"; };
+		5FBAC1122C5638F500ABF489 /* TabBarExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarExample.swift; sourceTree = "<group>"; };
+		5FBAC1152C563DA400ABF489 /* PresentationAndSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationAndSearch.swift; sourceTree = "<group>"; };
+		5FBAC1172C563F0D00ABF489 /* ProgressBarExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarExample.swift; sourceTree = "<group>"; };
+		5FBAC1192C563F1F00ABF489 /* SeparatorExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorExample.swift; sourceTree = "<group>"; };
+		5FBAC11B2C563F2F00ABF489 /* SearchBoxExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBoxExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F032DEB2C5553640045089F /* Alert & Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				5F032DEE2C5555760045089F /* AlertAndDialog.swift */,
+				5F032DEC2C5553810045089F /* DialogExample.swift */,
+				5F032DF22C5556FE0045089F /* DialogSheetExample.swift */,
+				5F032DF42C5558AA0045089F /* SnackbarExample.swift */,
+			);
+			path = "Alert & Dialog";
+			sourceTree = "<group>";
+		};
+		5F032DF62C555ABA0045089F /* Form Control */ = {
+			isa = PBXGroup;
+			children = (
+				5F032DF72C555B1B0045089F /* FormControls.swift */,
+				5F032DF92C555B440045089F /* CheckboxExample.swift */,
+				5F032DFB2C555C0B0045089F /* DateAndTimeSelectorExample.swift */,
+				5F032DFD2C555E3D0045089F /* RadioButtonGroupExample.swift */,
+				5F032DFF2C555F890045089F /* SecureTextBoxExample.swift */,
+				5F032E032C5563320045089F /* SwitchExample.swift */,
+				5F032E012C5560FB0045089F /* TextBoxExample.swift */,
+			);
+			path = "Form Control";
+			sourceTree = "<group>";
+		};
+		5F032E052C5568180045089F /* Interactive Elements */ = {
+			isa = PBXGroup;
+			children = (
+				5F032E062C55682A0045089F /* InteractiveElements.swift */,
+				5F032E082C5569D60045089F /* ActionButtonExample.swift */,
+				5F032E0A2C556EB10045089F /* DropdownMenuExample.swift */,
+				5F032E0C2C5578A70045089F /* FABExample.swift */,
+				5F032E0E2C557A950045089F /* IconButtonExample.swift */,
+			);
+			path = "Interactive Elements";
+			sourceTree = "<group>";
+		};
 		5F9D2FDC2C038BA0007558F9 = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				5F9D2FE82C038BA0007558F9 /* MaterialUIKitSampleApp.swift */,
-				5F9D2FEA2C038BA0007558F9 /* ContentView.swift */,
-				5F9D2FF92C038BD4007558F9 /* Custom Theme */,
+				5F9D2FF92C038BD4007558F9 /* Color Scheme */,
 				5F9D2FFC2C038D62007558F9 /* Components */,
 				5F9D2FEC2C038BA2007558F9 /* Assets.xcassets */,
 				5F9D2FEE2C038BA2007558F9 /* Preview Content */,
@@ -115,40 +161,49 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5F9D2FF92C038BD4007558F9 /* Custom Theme */ = {
+		5F9D2FF92C038BD4007558F9 /* Color Scheme */ = {
 			isa = PBXGroup;
 			children = (
-				5F9D2FFA2C038BEB007558F9 /* CustomColorTheme.swift */,
+				5F032DE62C554A180045089F /* AppleClassic.swift */,
 			);
-			path = "Custom Theme";
+			path = "Color Scheme";
 			sourceTree = "<group>";
 		};
 		5F9D2FFC2C038D62007558F9 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				5F9D2FFF2C0390C9007558F9 /* MUIAlertSample.swift */,
-				5F9D30012C03977A007558F9 /* MUIButtonSample.swift */,
-				5F2F2A8C2C04624D00046E80 /* MUICardViewSample.swift */,
-				5F2F2A8E2C0464A600046E80 /* MUICheckboxSample.swift */,
-				5F2F2A902C04656F00046E80 /* MUIDatePickerSample.swift */,
-				5F2F2A922C04667700046E80 /* MUIDialogSheetSample.swift */,
-				5F2F2A942C04672300046E80 /* MUIFABSample.swift */,
-				5F2F2A962C04683400046E80 /* MUIIconButtonSample.swift */,
-				5F2F2A9A2C0469BB00046E80 /* MUIListSample.swift */,
-				5F2F2A9C2C046B5100046E80 /* MUIMenuSample.swift */,
-				5F2F2A9E2C046D6C00046E80 /* MUINavigationViewSample.swift */,
-				5F2F2AA02C04731600046E80 /* MUIProgressSample.swift */,
-				5F2F2AA22C0474EF00046E80 /* MUIRadioButtonGroupSample.swift */,
-				5F2F2AA42C0475E400046E80 /* MUISearchbarSample.swift */,
-				5F2F2AA62C04769300046E80 /* MUISecurefieldSample.swift */,
-				5F2F2AA82C0477A500046E80 /* MUISegmentedControlSample.swift */,
-				5F2F2AAA2C04781900046E80 /* MUISnackbarSample.swift */,
-				5F2F2AAC2C04793300046E80 /* MUISwitchSample.swift */,
-				5F2F2AB22C04859400046E80 /* MUITabViewSample.swift */,
-				5F2F2AAE2C047A7B00046E80 /* MUITextFieldSample.swift */,
-				5F2F2AB02C04849D00046E80 /* MUITimePickerSample.swift */,
+				5F032DE82C554C420045089F /* RootContainer.swift */,
+				5F032DEB2C5553640045089F /* Alert & Dialog */,
+				5F032DF62C555ABA0045089F /* Form Control */,
+				5F032E052C5568180045089F /* Interactive Elements */,
+				5FBAC1072C5628DD00ABF489 /* Navigation And Structure */,
+				5FBAC1142C563D1F00ABF489 /* Presentation And Search */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		5FBAC1072C5628DD00ABF489 /* Navigation And Structure */ = {
+			isa = PBXGroup;
+			children = (
+				5FBAC1082C5628F800ABF489 /* NavigationAndStructure.swift */,
+				5FBAC10A2C56298200ABF489 /* CollectionExample.swift */,
+				5FBAC10C2C5630AA00ABF489 /* ContainerExample.swift */,
+				5FBAC10E2C56337B00ABF489 /* NavigationContainerExample.swift */,
+				5FBAC1102C56365C00ABF489 /* SegmentedButtonsExample.swift */,
+				5FBAC1122C5638F500ABF489 /* TabBarExample.swift */,
+			);
+			path = "Navigation And Structure";
+			sourceTree = "<group>";
+		};
+		5FBAC1142C563D1F00ABF489 /* Presentation And Search */ = {
+			isa = PBXGroup;
+			children = (
+				5FBAC1152C563DA400ABF489 /* PresentationAndSearch.swift */,
+				5FBAC1172C563F0D00ABF489 /* ProgressBarExample.swift */,
+				5FBAC1192C563F1F00ABF489 /* SeparatorExample.swift */,
+				5FBAC11B2C563F2F00ABF489 /* SearchBoxExample.swift */,
+			);
+			path = "Presentation And Search";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,30 +282,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F2F2AB32C04859400046E80 /* MUITabViewSample.swift in Sources */,
-				5F2F2A9B2C0469BB00046E80 /* MUIListSample.swift in Sources */,
-				5F2F2A8D2C04624D00046E80 /* MUICardViewSample.swift in Sources */,
-				5F2F2AA92C0477A500046E80 /* MUISegmentedControlSample.swift in Sources */,
-				5F2F2AB12C04849D00046E80 /* MUITimePickerSample.swift in Sources */,
-				5F2F2A952C04672300046E80 /* MUIFABSample.swift in Sources */,
-				5F2F2A972C04683400046E80 /* MUIIconButtonSample.swift in Sources */,
-				5F9D30002C0390C9007558F9 /* MUIAlertSample.swift in Sources */,
-				5F9D30022C03977A007558F9 /* MUIButtonSample.swift in Sources */,
-				5F2F2A9F2C046D6C00046E80 /* MUINavigationViewSample.swift in Sources */,
-				5F2F2AAB2C04781900046E80 /* MUISnackbarSample.swift in Sources */,
-				5F2F2AAF2C047A7B00046E80 /* MUITextFieldSample.swift in Sources */,
-				5F2F2AA72C04769300046E80 /* MUISecurefieldSample.swift in Sources */,
-				5F2F2AAD2C04793300046E80 /* MUISwitchSample.swift in Sources */,
-				5F2F2A9D2C046B5100046E80 /* MUIMenuSample.swift in Sources */,
-				5F2F2A8F2C0464A600046E80 /* MUICheckboxSample.swift in Sources */,
-				5F9D2FEB2C038BA0007558F9 /* ContentView.swift in Sources */,
-				5F2F2AA52C0475E400046E80 /* MUISearchbarSample.swift in Sources */,
-				5F2F2AA12C04731600046E80 /* MUIProgressSample.swift in Sources */,
-				5F2F2A912C04656F00046E80 /* MUIDatePickerSample.swift in Sources */,
-				5F2F2A932C04667700046E80 /* MUIDialogSheetSample.swift in Sources */,
-				5F9D2FFB2C038BEB007558F9 /* CustomColorTheme.swift in Sources */,
+				5F032E0D2C5578A70045089F /* FABExample.swift in Sources */,
+				5F032DE72C554A180045089F /* AppleClassic.swift in Sources */,
+				5F032E0B2C556EB10045089F /* DropdownMenuExample.swift in Sources */,
+				5F032DED2C5553810045089F /* DialogExample.swift in Sources */,
+				5F032DFC2C555C0B0045089F /* DateAndTimeSelectorExample.swift in Sources */,
+				5FBAC11C2C563F2F00ABF489 /* SearchBoxExample.swift in Sources */,
+				5F032DF32C5556FE0045089F /* DialogSheetExample.swift in Sources */,
+				5F032E0F2C557A950045089F /* IconButtonExample.swift in Sources */,
+				5FBAC1092C5628F800ABF489 /* NavigationAndStructure.swift in Sources */,
+				5F032DEF2C5555760045089F /* AlertAndDialog.swift in Sources */,
+				5F032DF52C5558AA0045089F /* SnackbarExample.swift in Sources */,
+				5F032E072C55682A0045089F /* InteractiveElements.swift in Sources */,
+				5F032E002C555F890045089F /* SecureTextBoxExample.swift in Sources */,
+				5FBAC10B2C56298200ABF489 /* CollectionExample.swift in Sources */,
+				5FBAC10F2C56337B00ABF489 /* NavigationContainerExample.swift in Sources */,
+				5F032DF82C555B1B0045089F /* FormControls.swift in Sources */,
+				5F032DFE2C555E3D0045089F /* RadioButtonGroupExample.swift in Sources */,
+				5F032DE92C554C420045089F /* RootContainer.swift in Sources */,
+				5F032DFA2C555B440045089F /* CheckboxExample.swift in Sources */,
+				5FBAC11A2C563F1F00ABF489 /* SeparatorExample.swift in Sources */,
+				5F032E092C5569D60045089F /* ActionButtonExample.swift in Sources */,
+				5FBAC1162C563DA500ABF489 /* PresentationAndSearch.swift in Sources */,
+				5FBAC10D2C5630AA00ABF489 /* ContainerExample.swift in Sources */,
+				5F032E022C5560FB0045089F /* TextBoxExample.swift in Sources */,
+				5FBAC1132C5638F500ABF489 /* TabBarExample.swift in Sources */,
 				5F9D2FE92C038BA0007558F9 /* MaterialUIKitSampleApp.swift in Sources */,
-				5F2F2AA32C0474EF00046E80 /* MUIRadioButtonGroupSample.swift in Sources */,
+				5F032E042C5563320045089F /* SwitchExample.swift in Sources */,
+				5FBAC1182C563F0D00ABF489 /* ProgressBarExample.swift in Sources */,
+				5FBAC1112C56365C00ABF489 /* SegmentedButtonsExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,8 +522,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/aumChauhan/MaterialUIKit.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.1;
+				kind = exactVersion;
+				version = 2.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

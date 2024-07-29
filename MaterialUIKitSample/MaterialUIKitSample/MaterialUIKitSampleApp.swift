@@ -5,23 +5,30 @@
 //  Created by Aum Chauhan on 26/05/24.
 //
 
+// Docs: https://swift-packages.gitbook.io/materialuikit/essentials/configuring-and-personalizing
+
 import SwiftUI
-@_exported import MaterialUIKit
+import MaterialUIKit
 
 @main
 struct MaterialUIKitSampleApp: App {
     
     init() {
-        // Set up MaterialUIKit with your preferred default color themes.
-        MaterialUIKit.tint = MUIColorThemes.purple
+        // Configuring an Individual Properties
+        MaterialUIKit.configuration.animationType = .bouncy(duration: 0.5)
+        MaterialUIKit.configuration.borderWidth = 1.0
+        MaterialUIKit.configuration.hapticFeedbackIntensity = 0.5
         
-        // Setting up a custom theme using MaterialUIKit's MUIColorThemeProtocol.
-        // MaterialUIKit.tint = CustomColorTheme()
+        // Create an Instance of the `MUIKitConfiguration`
+        let customConfiguration = MUIKitConfiguration()
+        
+        // Applying a Custom Configuration
+        MaterialUIKit.configuration = customConfiguration
     }
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootContainer()
         }
     }
 }

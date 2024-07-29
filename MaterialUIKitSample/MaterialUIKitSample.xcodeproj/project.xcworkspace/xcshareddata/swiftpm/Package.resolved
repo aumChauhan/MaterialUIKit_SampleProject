@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/aumChauhan/MaterialUIKit.git",
       "state" : {
-        "revision" : "c7d9c84784d45bfbb61b13e3728703fd58776866",
-        "version" : "1.2.1"
+        "revision" : "2f49b551d9a416d28f9432db3ca9274a54df8a63",
+        "version" : "2.0.0"
       }
     }
   ],
