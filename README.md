@@ -4,7 +4,7 @@ This sample project demonstrates the use of MaterialUIKit components and custom 
 
 For more information, visit the original [MaterialUIKit repository](https://github.com/aumChauhan/MaterialUIKit).
 
-## Components Preview
+## Preview
 
 https://github.com/user-attachments/assets/644eb958-b5ea-4bc0-b2dd-7561db08533b
 
